@@ -1,10 +1,10 @@
 package unit_tests
 
 import (
-	"api.jwt.auth/core/authentication"
-	"api.jwt.auth/core/redis"
-	"api.jwt.auth/services/models"
-	"api.jwt.auth/settings"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/core/authentication"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/core/redis"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/services/models"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/settings"
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/stretchr/testify/assert"
 	. "gopkg.in/check.v1"

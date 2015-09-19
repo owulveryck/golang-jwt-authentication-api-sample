@@ -1,9 +1,9 @@
 package services
 
 import (
-	"api.jwt.auth/api/parameters"
-	"api.jwt.auth/core/authentication"
-	"api.jwt.auth/services/models"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/api/parameters"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/core/authentication"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/services/models"
 	"encoding/json"
 	jwt "github.com/dgrijalva/jwt-go"
 	"net/http"

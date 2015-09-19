@@ -1,9 +1,9 @@
 package authentication
 
 import (
-	"api.jwt.auth/core/redis"
-	"api.jwt.auth/services/models"
-	"api.jwt.auth/settings"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/core/redis"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/services/models"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/settings"
 	"bufio"
 	"code.google.com/p/go-uuid/uuid"
 	"crypto/rsa"

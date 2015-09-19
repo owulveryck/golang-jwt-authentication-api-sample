@@ -1,8 +1,8 @@
 package main
 
 import (
-	"api.jwt.auth/routers"
-	"api.jwt.auth/settings"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/routers"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/settings"
 	"github.com/codegangsta/negroni"
 	"net/http"
 )

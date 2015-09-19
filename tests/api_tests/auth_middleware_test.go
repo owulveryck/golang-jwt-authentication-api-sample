@@ -1,10 +1,10 @@
 package api_tests
 
 import (
-	"api.jwt.auth/core/authentication"
-	"api.jwt.auth/routers"
-	"api.jwt.auth/services"
-	"api.jwt.auth/settings"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/core/authentication"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/routers"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/services"
+	"github.com/owulveryck/golang-jwt-authentication-api-sample/settings"
 	"fmt"
 	"github.com/codegangsta/negroni"
 	"github.com/stretchr/testify/assert"
